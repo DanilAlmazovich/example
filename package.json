@@ -1,0 +1,51 @@
+{
+    "name": "azor",
+    "version": "1.0.0",
+    "description": "Azor marketplace front end",
+    "author": "d-themes",
+    "private": true,
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "generate": "nuxt generate",
+        "analyze": "nuxt build --analyze"
+    },
+    "dependencies": {
+        "@nuxtjs/auth-next": "5.0.0-1648802546.c9880dc",
+        "@nuxtjs/axios": "^5.13.6",
+        "@nuxtjs/google-analytics": "^2.4.0",
+        "@nuxtjs/i18n": "^7.2.2",
+        "@nuxtjs/robots": "^2.5.0",
+        "@nuxtjs/sentry": "^6.0.0",
+        "@nuxtjs/sitemap": "^2.4.0",
+        "@sentry/browser": "^7.13.0",
+        "babel-eslint": "^10.0.3",
+        "cookie-universal-nuxt": "^2.1.3",
+        "cookieparser": "^0.1.0",
+        "dependency": "^0.0.1",
+        "js-cookie": "^2.2.1",
+        "nuxt": "^2.15.8",
+        "nuxt-compress": "^5.0.0",
+        "prettier": "^1.9.2",
+        "sass": "^1.32.8",
+        "sass-loader": "10.1.1",
+        "save": "^2.5.0",
+        "save-dev": "^0.0.1-security",
+        "v-mask": "^2.3.0",
+        "vue": "^2.7.3",
+        "vue-awesome-swiper": "^3.1.3",
+        "vue-final-modal": "^2.4.1",
+        "vue-js-modal": "^2.0.0-rc.6",
+        "vue-lazyload": "^1.3.3",
+        "vue-notification": "^1.3.20",
+        "vue-observe-visibility": "^1.0.0",
+        "vue-photo-zoom-pro": "^2.5.0",
+        "vue-sessionstorage": "^1.0.0",
+        "vue-sticky-directive": "^0.0.10"
+    },
+    "devDependencies": {
+        "@nuxt/types": "~0.7.0",
+        "webpack": "^4.46.0"
+    }
+}
